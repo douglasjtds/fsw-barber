@@ -6,12 +6,12 @@ import { MenuIcon } from "lucide-react"
 const Header = () => {
   return (
     <Card>
-      <CardContent className="flex-row items-center justify-between p-5">
+      <CardContent className="flex flex-row items-center justify-between p-5">
         <Image alt="FSW Barber" src="/logo.png" height={18} width={120} />
+        <Button size="icon" variant="outline">
+          <MenuIcon></MenuIcon>
+        </Button>
       </CardContent>
-      <Button size="icon" variant="outline">
-        <MenuIcon></MenuIcon>
-      </Button>
     </Card>
   )
 }
