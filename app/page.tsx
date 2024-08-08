@@ -1,8 +1,10 @@
-import Image from "next/image";
+"use client"
 
-export default function Home() {
-  return (
-    <h1 className="text-red-500 mb-5 bg-red-300">Home Page</h1>
-  );
+import { useState } from "react";
+import { Button } from "./_components/ui/button";
+
+const Home = () => {
+  return <Button>test me</Button>
 }
 
+export default Home
