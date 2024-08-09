@@ -49,3 +49,14 @@ model Booking {
   createdAt DateTime          @default(now())
   updatedAt DateTime          @updatedAt
 }
+
+// criar tabela de avaliações Ratings que vai ter user e vai ter a barbearia barbershopid
+// model Rating {
+//   id        String            @id @default(uuid())
+//   userId    String
+//   user      User              @relation(fields: [userId], references: [id])
+//   barbershopId String
+//   date      DateTime
+//   createdAt DateTime          @default(now())
+//   updatedAt DateTime          @updatedAt
+// }
